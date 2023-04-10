@@ -395,13 +395,13 @@ theme="light"
                 {/*  */}
                 <div className="rounded-xl  w-full bg-black">
                   <div className="img w-full h-[20rem] p-2 overflow-hidden">
-                  <a href="https://music-player-orpin-five.vercel.app/" target="_blank">
-                    <img src="/assets/music.png" alt="meals-projects" className='w-full h-full object-cover rounded-lg hover:scale-[1.8] duration-[1200ms]' />
+                  <a href="https://movie-six-cyan.vercel.app/" target="_blank">
+                    <img src="/assets/movie.png" alt="meals-projects" className='w-full h-full object-cover rounded-lg hover:scale-[1.8] duration-[1200ms]' />
                     </a>
                   </div>
                   <div className="card-body py-4 px-6">
-                  <h1 className="text-white my-4 font-light text-3xl">Project Name: <span className="text-sky-600 text-2xl font-thin">Musica Application</span></h1>
-                  <h1 className="text-white font-light text-3xl">Project Description: <span className="text-amber-600 text-2xl font-thin capitalize leading-[1.8]">Simple Site Using Third Party API to fetch different meals. The User Can also filter meals by different types of food types.</span></h1>
+                  <h1 className="text-white my-4 font-light text-3xl">Project Name: <span className="text-sky-600 text-2xl font-thin">MovieFlix</span></h1>
+                  <h1 className="text-white font-light text-3xl">Project Description: <span className="text-amber-600 text-2xl font-thin capitalize leading-[1.8]">Search and find different movies and tv shows from all over the world.</span></h1>
 
                   </div>
                 </div>
