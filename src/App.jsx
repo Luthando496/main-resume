@@ -360,8 +360,8 @@ function App() {
                   </a>
                   </div>
                   <div className="card-body py-4 px-6">
-                  <h1 className="text-white my-4 font-light text-3xl">Project Name: <span className="text-sky-600 text-2xl font-thin">Best Foods</span></h1>
-                  <h1 className="text-white font-light text-3xl">Project Description: <span className="text-amber-600 text-2xl font-thin capitalize leading-[1.8]">Simple Site Using Third Party API tob fetch different meals. The User Can also filter meals by different types of food types.</span></h1>
+                  <h1 className="text-white my-4 font-light text-3xl">Project Name: <span className="text-sky-600 text-2xl font-thin">Fashion Frenzy</span></h1>
+                  <h1 className="text-white font-light text-3xl">Project Description: <span className="text-amber-600 text-2xl font-thin capitalize leading-[1.8]">Nike minimal clone Web Application. Application used with Reactjs, Tailwind CSS and firebase.</span></h1>
 
                   </div>
                 </div>
@@ -387,8 +387,8 @@ function App() {
                     </a>
                   </div>
                   <div className="card-body py-4 px-6">
-                  <h1 className="text-white my-4 font-light text-3xl">Project Name: <span className="text-sky-600 text-2xl font-thin">Food Lovers</span></h1>
-                  <h1 className="text-white font-light text-3xl">Project Description: <span className="text-amber-600 text-2xl font-thin capitalize leading-[1.8]">Search And Find Your favorite meals and get all the recipes and instructions to make your meal right at home.</span></h1>
+                  <h1 className="text-white my-4 font-light text-3xl">Project Name: <span className="text-sky-600 text-2xl font-thin">Shop Woodmart</span></h1>
+                  <h1 className="text-white font-light text-3xl">Project Description: <span className="text-amber-600 text-2xl font-thin capitalize leading-[1.8]">An Ecommerce site to shop for favorite supplies.</span></h1>
 
                   </div>
                 </div>
@@ -413,7 +413,7 @@ function App() {
                     </a>
                   </div>
                   <div className="card-body py-4 px-6">
-                  <h1 className="text-white my-4 font-light text-3xl">Project Name: <span className="text-sky-600 text-2xl font-thin">Best Foods</span></h1>
+                  <h1 className="text-white my-4 font-light text-3xl">Project Name: <span className="text-sky-600 text-2xl font-thin">Unsplash Clone</span></h1>
                   <h1 className="text-white font-light text-3xl">Project Description: <span className="text-amber-600 text-2xl font-thin capitalize leading-[1.8]">Simple Site Using Third Party API of unsplash to display different images the user searches for.</span></h1>
 
                   </div>
