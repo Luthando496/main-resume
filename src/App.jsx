@@ -28,14 +28,14 @@ function App() {
 
   const onButtonClick = () => {
     // using Java Script method to get PDF file
-    fetch('Luthando_Didiza_Resume-2.pdf').then(response => {
+    fetch('Luthando_Didiza_CV.pdf').then(response => {
         response.blob().then(blob => {
             // Creating new object of PDF file
             const fileURL = window.URL.createObjectURL(blob);
             // Setting various property values
             let alink = document.createElement('a');
             alink.href = fileURL;
-            alink.download = 'Luthando_Didiza_Resume-2.pdf';
+            alink.download = 'Luthando_Didiza_CV.pdf';
             alink.click();
         })
     })
@@ -45,17 +45,17 @@ function App() {
   return (
             <>
             <ToastContainer
-position="top-center"
-autoClose={3000}
-hideProgressBar={false}
-newestOnTop={false}
-closeOnClick
-rtl={false}
-pauseOnFocusLoss
-draggable
-pauseOnHover
-theme="light"
-/>
+            position="top-center"
+            autoClose={3000}
+            hideProgressBar={false}
+            newestOnTop={false}
+            closeOnClick
+            rtl={false}
+            pauseOnFocusLoss
+            draggable
+            pauseOnHover
+            theme="light" 
+            />
 {/* Same as */}
               <nav className="navbar w-full  bg-black py-3 relative">
                 <div className="w-[95%] mx-auto  flex justify-between items-center">
@@ -354,8 +354,8 @@ theme="light"
 
                 <div className="rounded-xl  w-full bg-black">
                   <div className="img w-full h-[20rem] p-2 overflow-hidden">
-                  <a href="https://home-food-react.vercel.app/" target="_blank">
-                    <img src="/assets/meal.jpeg" alt="meals-projects" className='w-full h-full object-cover rounded-lg hover:scale-[1.8] duration-[1200ms]' />
+                  <a href="https://nike-silk.vercel.app/" target="_blank">
+                    <img src="/assets/nike.png" alt="meals-projects" className='w-full h-full object-cover rounded-lg hover:scale-[1.8] duration-[1200ms]' />
 
                   </a>
                   </div>
@@ -382,8 +382,8 @@ theme="light"
                 {/*  */}
                 <div className="rounded-xl  w-full bg-black">
                   <div className="img w-full h-[20rem] p-2 overflow-hidden">
-                  <a href="https://meals-mocha.vercel.app/" target="_blank">
-                    <img src="/assets/meal.png" alt="meals-projects" className='w-full h-full object-cover rounded-lg hover:scale-[1.8] duration-[1200ms]' />
+                  <a href="https://shop-woodmart.vercel.app/" target="_blank">
+                    <img src="/assets/shop-woodmart.png" alt="meals-projects" className='w-full h-full object-cover rounded-lg hover:scale-[1.8] duration-[1200ms]' />
                     </a>
                   </div>
                   <div className="card-body py-4 px-6">
