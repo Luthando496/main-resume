@@ -5,8 +5,12 @@ import './App.css'
 import { TypeAnimation } from 'react-type-animation';
 import emailjs from '@emailjs/browser';
 import { ToastContainer, toast } from 'react-toastify';
-import 'react-toastify/dist/ReactToastify.css';
+import 'react-toastify/dist/ReactToastify.css'
 
+import AOS from 'aos';
+import 'aos/dist/aos.css'; // You can also use <link> for styles
+// ..
+AOS.init();
 
 
 function App() {
@@ -148,7 +152,7 @@ function App() {
  
               </header>
 
-              <section id='about' className=" pt-28 pb-4 bg-white/90-full">
+              <section data-aos="zoom-in" id='about' className=" pt-28 pb-4 bg-white/90-full">
 
                 <h1 className="text-4xl font-bold text-sky-500 text-center">About Me</h1>
 
@@ -213,7 +217,7 @@ function App() {
               </section>
 
               {/* services */}
-              <section id='services' className="pt-28 pb-4 bg-gray-200  w-full">
+              <section data-aos="fade-up"  id='services' className="pt-28 pb-4 bg-gray-200  w-full">
 
                 <h1 className="text-4xl font-bold text-sky-500 text-center">Services</h1>
                 <div className="w-[6rem] my-3 h-[2px] bg-sky-500 text-center mx-auto"></div>
@@ -275,7 +279,7 @@ function App() {
                 {/* left */}
 
                 
-                <div className="flex flex-col space-y-10">
+                <div data-aos="fade-left" className="flex flex-col space-y-10">
                 <h1 className="text-4xl text-sky-500 text-center font-semibold">My Education</h1>
                 <div className="card px-4 py-6 bg-black/90 rounded-xl space-y-3 ">
                   <span className="bg-sky-600 text-white p-2  rounded-xl">2019 - 2020</span>
@@ -306,7 +310,7 @@ function App() {
                 </div>
 
                 {/* right */}
-                <div className="flex flex-col space-y-10">
+                <div data-aos="fade-right" className="flex flex-col space-y-10">
                 <h1 className="text-4xl text-sky-500 text-center font-semibold">My Experience</h1>
                 <div className="card px-4 py-6 bg-black/90 rounded-xl space-y-3 ">
                   <span className="bg-sky-600 text-white p-2  rounded-xl">2023 - now</span>
