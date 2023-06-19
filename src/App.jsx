@@ -17,6 +17,20 @@ function App() {
 
   const form = useRef();
   const [show,setShow]= useState(false)
+  const [navbar,setNavbar] = useState(false)
+
+
+  const changeNav =()=>{
+    if(window.scrollY >= 30){
+        setNavbar(true)
+    }
+    else{
+        setNavbar(false)
+    }
+
+}
+
+window.addEventListener('scroll',changeNav)
 
   const sendEmail = (e) => {
     e.preventDefault();
@@ -61,7 +75,7 @@ function App() {
             theme="light" 
             />
 {/* Same as */}
-              <nav className="navbar w-full  bg-black py-3 relative">
+              <nav className={`${navbar ? 'bg-emerald-400 fixed top-0 z-50' :'bg-black '} w-full duration-[600] bg-black py-3 relative}`}>
                 <div className="w-[95%] mx-auto  flex justify-between items-center">
                   <h1 className="text-3xl font-bold text-white">Luthando</h1>
 
@@ -523,7 +537,7 @@ function App() {
               </section>
 
               {/* // footer */}
-              <footer className="py-[5rem] bg-black">
+              <footer id='contact' className="py-[5rem] bg-black">
               <h1 className="text-5xl text-rose-400 text-center">Get In Touch</h1>
 
               <div className="w-full mt-[5rem] flex justify-center">
