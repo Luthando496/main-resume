@@ -75,38 +75,38 @@ window.addEventListener('scroll',changeNav)
             theme="light" 
             />
 {/* Same as */}
-              <nav className={`${navbar ? 'bg-emerald-400 fixed top-0 z-50' :'bg-black '} w-full duration-[600] bg-black py-3 relative}`}>
+              <nav className={`${navbar ? 'bg-emerald-800 shadow-2xl fixed top-0 z-50' :'bg-black '} w-full duration-[600] bg-black py-3 relative}`}>
                 <div className="w-[95%] mx-auto  flex justify-between items-center">
                   <h1 className="text-3xl font-bold text-white">Luthando</h1>
 
                   <ul className="hidden lg:flex lg:justify-between items-center text-white">
-                    <li className="p-3 font-light text-2xl capitalize hover:text-purple-700 duration-500 hover:shadow-lg hover:-translate-y-2 hover:shadow-blue-700 cursor-pointer">
-                      <h1 className='flex items-center'><FaHome className='mr-2 hover:text-red-700 text-sky-600' /> Home</h1>
+                    <li className="p-3  text-2xl capitalize hover:text-black duration-500 hover:shadow-lg hover:-translate-y-2 hover:shadow-blue-700 cursor-pointer">
+                      <h1 className='flex font-semibold items-center'><FaHome className='mr-2 hover:text-red-700 text-sky-600' /> Home</h1>
                     </li>
-                    <li className="p-3 font-light text-2xl capitalize hover:text-purple-700 duration-500 hover:shadow-lg hover:translate-y-4 hover:shadow-sky-700 cursor-pointer">
-                      <a href='#about' >About</a>
+                    <li className="p-3  text-2xl capitalize hover:text-black duration-500 hover:shadow-lg hover:translate-y-4 hover:shadow-sky-700 cursor-pointer">
+                      <a href='#about' className='font-semibold' >About</a>
                     </li>
-                    <li className="p-3 font-light text-2xl capitalize hover:text-purple-700 duration-500 hover:shadow-lg hover:-translate-y-2 hover:shadow-sky-700 cursor-pointer">
-                      <a href='#services'>Services</a>
+                    <li className="p-3  text-2xl capitalize hover:text-black duration-500 hover:shadow-lg hover:-translate-y-2 hover:shadow-sky-700 cursor-pointer">
+                      <a href='#services' className='font-semibold'>Services</a>
                     </li>
-                    <li className="p-3 font-light text-2xl capitalize hover:text-purple-700 duration-500 hover:shadow-lg hover:-translate-y-2 hover:shadow-sky-700 cursor-pointer">
+                    <li className="p-3  text-2xl capitalize hover:text-black duration-500 hover:shadow-lg hover:-translate-y-2 hover:shadow-sky-700 cursor-pointer">
                     <a href="#resume">
-                      <h1>Resume</h1>
+                      <h1 className='font-semibold'>Resume</h1>
                     </a>
                     </li>
-                    <li className="p-3 font-light text-2xl capitalize hover:text-purple-700 duration-500 hover:shadow-lg hover:translate-y-2 hover:shadow-sky-700 cursor-pointer">
+                    <li className="p-3  text-2xl capitalize hover:text-black duration-500 hover:shadow-lg hover:translate-y-2 hover:shadow-sky-700 cursor-pointer">
                     <a href="#portfolio">
                       <h1>portfolio</h1>
                     </a>
                     </li>
-                    <li className="p-3 font-light text-2xl capitalize hover:text-purple-700 duration-500 hover:shadow-lg hover:translate-y-2 hover:shadow-sky-700 cursor-pointer">
+                    <li className="p-3  text-2xl capitalize hover:text-black duration-500 hover:shadow-lg hover:translate-y-2 hover:shadow-sky-700 cursor-pointer">
                     <a href="#skills">
-                      <h1>Skills</h1>
+                      <h1 className='font-semibold'>Skills</h1>
                     </a>
                     </li>
-                    <li className="p-3 font-light text-2xl capitalize hover:text-purple-700 duration-500 hover:shadow-lg hover:-translate-y-2 hover:shadow-sky-700 cursor-pointer">
+                    <li className="p-3  text-2xl capitalize hover:text-black duration-500 hover:shadow-lg hover:-translate-y-2 hover:shadow-sky-700 cursor-pointer">
                     <a href="#contact">
-                      <h1>contact</h1>
+                      <h1 className='font-semibold'>contact</h1>
                     </a>
                     </li>
                   </ul>
