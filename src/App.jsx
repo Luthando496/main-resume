@@ -288,7 +288,7 @@ window.addEventListener('scroll',changeNav)
                 <h1 className="text-4xl font-bold text-sky-500 text-center">Resume</h1>
                 <div className="w-[6rem] my-3 h-[2px] bg-sky-500 text-center mx-auto"></div>
 
-                <div className="mt-[9rem] w-[90%] mx-auto grid grid-cols-1 md:grid-cols-2 gap-8 items-end">
+                <div className="mt-[9rem] w-[90%] mx-auto grid grid-cols-1 md:grid-cols-2 gap-8 items-start">
 
                 {/* left */}
 
